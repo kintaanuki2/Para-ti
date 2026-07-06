@@ -181,9 +181,9 @@
             justify-content: center;
         }
 
-        .vinyl.playing{
-    animation: spin 9s linear infinite;
-}
+        .vinyl.playing {
+            animation: spin 9s linear infinite;
+        }
 
         @media (prefers-reduced-motion: reduce) {
             .vinyl {
@@ -661,22 +661,18 @@
             <div class="photo-frame">
                 <img class="photo-placeholder"
                     src="https://i.ibb.co/6RtWNqwt/Whats-App-Image-2026-07-03-at-7-47-29-PM-2.jpg" alt="Foto">
-                <div class="photo-caption">Texto el cual no se que poner JUAJSJAJSA</div>
             </div>
             <div class="photo-frame">
                 <img class="photo-placeholder"
                     src="https://i.ibb.co/SXdP2X2L/Whats-App-Image-2026-07-03-at-7-47-29-PM-1.jpg" alt="Foto">
-                <div class="photo-caption">Texto el cual no se que poner JUAJSJAJSA</div>
             </div>
             <div class="photo-frame">
                 <img class="photo-placeholder"
                     src="https://i.ibb.co/Y7RrLhRk/Whats-App-Image-2026-07-03-at-7-47-29-PM.jpg" alt="Foto">
-                <div class="photo-caption">Texto el cual no se que poner JUAJSJAJSA</div>
             </div>
             <div class="photo-frame">
                 <img class="photo-placeholder"
                     src="https://i.ibb.co/5X2NbL6P/Whats-App-Image-2026-07-03-at-7-47-28-PM.jpg" alt="Foto">
-                <div class="photo-caption">Texto el cual no se que poner JUAJSJAJSA</div>
             </div>
         </div>
 
@@ -734,11 +730,40 @@
     <div class="divider"></div>
     <section class="reveal">
         <span class="eyebrow">Razones por las que te amo</span>
-        <h2 style="font-size:clamp(1.8rem,4vw,2.6rem); margin-top:0.6rem;">Por qué te quiero</h2>
+        <h2 style="font-size:clamp(1.8rem,4vw,2.6rem); margin-top:0.6rem;">Por qué te amo?</h2>
 
         <div class="reasons-list">
-            <div class="reason"><span class="mark">◆</span>
-                <p>tengo que poner las razones</p>
+            <div class="reason"><span class="mark">1</span>
+                <p>Porque tus abrazos son mi lugar seguro.</p>
+            </div>
+            <div class="reason"><span class="mark">2</span>
+                <p>Porque me haces sentir unico.</p>
+            </div>
+            <div class="reason"><span class="mark">3</span>
+                <p>¨Porque contigo puedo ser yo mismo</p>
+            </div>
+            <div class="reason"><span class="mark">4</span>
+                <p>Porque eres mi lugar favorito, sin importar dónde estemos.</p>
+            </div>
+            <div class="reason"><span class="mark">5</span>
+                <p>Porque desde que llegaste a mi vida, todo tiene un poquito más de sentido</p>
+            </div>
+            <div class="reason"><span class="mark">6</span>
+                <p>Porque cuando imagino mi futuro, siempre apareces tú en cada uno de mis sueños.</p>
+            </div>
+            <div class="reason"><span class="mark">7</span>
+                <p>Porque me haces sentir completo</p>
+            </div>
+            <div class="reason"><span class="mark">8</span>
+                <p>Porque contigo soy feliz sin motivo</p>
+            </div>
+            <div class="reason"><span class="mark">9</span>
+                <p>Porque cada día encuentro un nuevo motivo para enamorarme un poquito más de ti.</p>
+            </div>
+            <div class="reason"><span class="mark">∞</span>
+                <p>Podría escribir cien, mil o un millón de razones, y aun
+                    así siempre me faltaría una más. Contigo entendí que el amor no tiene un límite, y tampoco las
+                    razones para amarte.</p>
             </div>
         </div>
     </section>
@@ -823,21 +848,21 @@
 
         //Cancion
         const vinyl = document.getElementById("vinylPlayer");
-const music = document.getElementById("music");
-const disc = document.querySelector(".vinyl");
+        const music = document.getElementById("music");
+        const disc = document.querySelector(".vinyl");
 
-let musicStarted = false;
+        let musicStarted = false;
 
-vinyl.addEventListener("click", () => {
+        vinyl.addEventListener("click", () => {
 
-    if (musicStarted) return;
+            if (musicStarted) return;
 
-    musicStarted = true;
+            musicStarted = true;
 
-    music.play();
-    disc.classList.add("playing");
+            music.play();
+            disc.classList.add("playing");
 
-});
+        });
 
     </script>
 </body>
