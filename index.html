@@ -801,7 +801,7 @@
         const dust = document.getElementById('dust');
         const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
         if (!reduceMotion) {
-            for (let i = 0; i < 150; i++) {
+            for (let i = 0; i < 128; i++) {
                 const s = document.createElement('span');
                 s.style.left = Math.random() * 100 + 'vw';
                 s.style.animationDuration = (10 + Math.random() * 14) + 's';
